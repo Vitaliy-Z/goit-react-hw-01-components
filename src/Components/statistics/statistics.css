@@ -1,0 +1,26 @@
+.statistics {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.title {
+  font-size: x-large;
+  font-weight: bold;
+  color: rgba(43, 41, 41, 0.747);
+}
+
+.stat-list {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  padding: 15px 10px;
+  width: 80px;
+}
+
+.item span {
+  display: block;
+}
