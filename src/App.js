@@ -19,9 +19,10 @@ export default function App() {
       />
       <Statistics
         key={statisticalData.id}
-        // title="Upload stats"
+        title="Upload stats"
         stats={statisticalData}
       />
+      <Statistics key={statisticalData.id} stats={statisticalData} />
       <FriendList key={friends.id} friends={friends} />
       <TransactionHistory items={transactions} />
     </div>
