@@ -19,7 +19,7 @@ export default function App() {
       />
       <Statistics
         key={statisticalData.id}
-        title="Upload stats"
+        // title="Upload stats"
         stats={statisticalData}
       />
       <FriendList key={friends.id} friends={friends} />

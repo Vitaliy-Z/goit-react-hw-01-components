@@ -3,7 +3,7 @@ import "./transactions.css";
 
 export default function TransactionHistory({ items }) {
   return (
-    <table class="transaction-history">
+    <table className="transaction-history">
       <thead>
         <tr>
           <th>Type</th>
@@ -25,5 +25,5 @@ export default function TransactionHistory({ items }) {
 }
 
 TransactionHistory.prototype = {
-  items: PropTypes.object,
+  items: PropTypes.object.isRequired,
 };
